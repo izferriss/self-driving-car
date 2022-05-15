@@ -87,6 +87,11 @@ function discard()
     localStorage.removeItem("bestBrain");
 }
 
+function reload()
+{
+    window.location.reload();
+}
+
 function calcFPS(time)
 {
     delta = (time - lastFrame) / 1000;
